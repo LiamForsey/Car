@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1500px;
+}
+
+
+
+.navcontainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.box{
+    height:100px;
+    width: 1500px;
+}
+
+#box1 {
+    background-color: white;
+    height: 885px;
+    width: 1900px;
+}
+
+#box2 {
+    background-color: white;
+    height: 500px;
+    width:  1900px;
+}
+
+#box3 {
+    background-color: orange;
+    height: 500px;
+    width: 750px;
+}
+
+#box4 {
+    background-color: yellow;
+    height: 500px;
+    width: 750px;
+}
+
+#nav {
+    width: 1900px;
+    height: 70px;
+    background-color: black;
+    border-top: 2px solid black;
+}
+
+a:link {
+    font-size: 12pt;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    font-size: 12pt;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 12pt;
+    color: white;
+    text-decoration-line: underline;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      margin: 0px;
+    }
+    main {
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: rgb(18, 255, 22);
+      margin: 0px;
+    }
+    main {
+      justify-content: center;
+    }
+  }
+
+  #image {
+    height: 885px;
+    width: 1900px;
+    
+  }
+
+  .searchbox {
+    height: 10px;
+    width: 20px;
+
+  }
+
+  h1{
+    color: white;
+    text-align: center;
+}
+
+.textbox {
+    height:750px;
+    width: 1500px;
+    align-content: center;
+    text-align: center;
+}
+
+
+#textbox {
+    height: 600px;
+    width: 1900px;
+    background-color: white;
+    font-size: 18px;
+}
+    
+#textboxtext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+}
+  
+#image2{
+    height: 900px;
+    width: 1200px;
+}
+
+#image3 {
+    height: 870px;
+    width: 1200px;
+}
+
+
+
+
+
+
+
